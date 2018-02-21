@@ -9,4 +9,5 @@ Converting a design mockup as a PDF-file to a responsive website.
 - CSS  
 ## Framework used: 
 - Bootstrap 
-## If you want to give a look click the link below :
+ 
+ ## To see it clone the repository and run the index.html file in your browser
