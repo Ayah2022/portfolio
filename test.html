@@ -1,0 +1,118 @@
+<!doctype html>
+<html>
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta charset="UTF-8">
+    <title>Ayah Rateb - Portfolio</title>
+    <link href="https://fonts.googleapis.com/css?family=Playfair+Display|Ubuntu" rel="stylesheet" type="text/css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/main.css">
+    <script type="text/javascript" src="http://code.jquery.com/jquery-2.1.1.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  </head>
+  <body>
+ 
+    <div class="container">
+	 <header>
+      <div class="row" >
+        <div class="col-md-6 col-sm-6">
+		<img class="logo img-responsive " src="images/logo2.jpg" alt="udacitylogo">
+        </div>
+        <div  class="bio col-md-6 col-sm-6 text-right text-uppercase">
+          <h1 class="first-title text-thin">Ayah Rateb</h1>
+          <h4>Front-End Developer</h4>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-md-12">
+          <hr class="line">
+        </div>
+      </div>
+	 </header>
+	 <article>
+      <div class="row">
+        <div class="col-md-12">
+          <img class="img-responsive main-image" src="images\main.jpg" alt="cover photo">
+        </div>
+      </div>
+    <div class="row ">
+        <div class="col-md-12">
+          <h2 class="second-title">Featured Work</h2>
+        </div>
+      </div>
+      <div class="row centert">
+      <div class="col-md-4">
+        <img class="img-responsive feature-img"  src="images\first.png"  data-toggle="modal" data-target="#project1" alt="norwegian cat">
+        <h3 class="text-uppercase desc">Norwegian cat</h3>
+        <p>http://github.com/udacity/norwegian</p>
+      </div>
+       <div class="col-md-4">
+        <img class="img-responsive feature-img" src="images\second.png"  data-toggle="modal" data-target="#project2" alt="new site">
+        <h3 class="text-uppercase desc">New Site</h3>
+        <p>http://github.com/udacity/site</p>
+      </div>
+       <div class="col-md-4">
+        <img class="img-responsive feature-img" src="images\third.png"  data-toggle="modal" data-target="#project3" alt="portfolio">
+        <h3 class="text-uppercase desc">Portfolio </h3>
+        <p>http://github.com/udacity/portfolio</p>
+      </div>
+      </div>
+	 </article>
+  </div>
+
+
+    <!-- Modal -->
+    <div class="modal fade" id="project1" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h4 class="modal-title" id="myModalLabel">Norwegian Cat</h4>
+          </div>
+          <div class="modal-body">
+            <img class="img-responsive" src="images\first.png">
+            This was my first project in this class. I learned a lot about HTML.
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="modal fade" id="project2" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h4 class="modal-title" id="myModalLabel">My Own page</h4>
+          </div>
+          <div class="modal-body">
+            <img class="img-responsive" src="images\second.png">
+            My second project was to build my own small web page article.
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="modal fade" id="project3" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h4 class="modal-title" id="myModalLabel">Portfolio with Bootstrap</h4>
+          </div>
+          <div class="modal-body">
+            <img class="img-responsive" src="images\third.png">
+            In this project I learned how to use Bootstrap and applied it to the second version of portfolio page.
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

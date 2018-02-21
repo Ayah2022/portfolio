@@ -1,0 +1,49 @@
+
+.bio {
+	margin-top: 15px;
+    font-family: 'Playfair Display', serif;
+	color: #7d97ad;
+	
+
+}
+.second-title {
+	color: #BBBBfc;
+	font-size: 250%;
+}
+
+.text-thin {
+	font-weight: 100;
+}
+.firsttitle {
+	font-size: 100px;
+}
+.logo {
+	margin-bottom:15px;
+	margin-top:15px;
+	margin-right:0px !important;
+	width: 18%;
+	height: 105px;
+
+}
+.centert {
+    
+	text-align: center;
+}
+.desc {
+	color:#dfbcaa;
+}
+.main-image {
+	width: 100%;
+	height: 10%;
+}
+.line {
+
+	border-bottom: 4px solid #bcbbbb;
+}
+.feature-img {
+ width: 75%;
+ height: auto;
+ display: block;
+ margin: auto;
+}
+ 
