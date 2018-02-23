@@ -3,7 +3,7 @@
 ## Description:
 Converting a design mockup as a PDF-file to a responsive website.
 
-![alt text](img/Screenshot%20(137).png)  
+![alt text](images/third.png)  
 
 ## Languages used:
 - HTML
